@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/AnnaKesova/For-first-redux.git/static/css/main.9eaada16.css",
-    "main.js": "/AnnaKesova/For-first-redux.git/static/js/main.a920d303.js",
-    "static/js/787.08bcd43e.chunk.js": "/AnnaKesova/For-first-redux.git/static/js/787.08bcd43e.chunk.js",
-    "index.html": "/AnnaKesova/For-first-redux.git/index.html",
-    "main.9eaada16.css.map": "/AnnaKesova/For-first-redux.git/static/css/main.9eaada16.css.map",
-    "main.a920d303.js.map": "/AnnaKesova/For-first-redux.git/static/js/main.a920d303.js.map",
-    "787.08bcd43e.chunk.js.map": "/AnnaKesova/For-first-redux.git/static/js/787.08bcd43e.chunk.js.map"
+    "main.css": "/For-first-redux/static/css/main.9eaada16.css",
+    "main.js": "/For-first-redux/static/js/main.02a479c2.js",
+    "static/js/787.08bcd43e.chunk.js": "/For-first-redux/static/js/787.08bcd43e.chunk.js",
+    "index.html": "/For-first-redux/index.html",
+    "main.9eaada16.css.map": "/For-first-redux/static/css/main.9eaada16.css.map",
+    "main.02a479c2.js.map": "/For-first-redux/static/js/main.02a479c2.js.map",
+    "787.08bcd43e.chunk.js.map": "/For-first-redux/static/js/787.08bcd43e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9eaada16.css",
-    "static/js/main.a920d303.js"
+    "static/js/main.02a479c2.js"
   ]
 }
