@@ -20,6 +20,7 @@ useState, useEffect, redux, redux-thunk, uniqid, useDispatch, useSelector, Provi
  https://randomfox.ca/floof/
 
 Ссылка на проект: 
+https://annakesova.github.io/For-first-redux/
 
 
 ## Инструкция по разрёртыванию проекта:
