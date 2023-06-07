@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AnnaKesova/For-first-redux.git/static/css/main.9eaada16.css",
+    "main.js": "/AnnaKesova/For-first-redux.git/static/js/main.a920d303.js",
+    "static/js/787.08bcd43e.chunk.js": "/AnnaKesova/For-first-redux.git/static/js/787.08bcd43e.chunk.js",
+    "index.html": "/AnnaKesova/For-first-redux.git/index.html",
+    "main.9eaada16.css.map": "/AnnaKesova/For-first-redux.git/static/css/main.9eaada16.css.map",
+    "main.a920d303.js.map": "/AnnaKesova/For-first-redux.git/static/js/main.a920d303.js.map",
+    "787.08bcd43e.chunk.js.map": "/AnnaKesova/For-first-redux.git/static/js/787.08bcd43e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9eaada16.css",
+    "static/js/main.a920d303.js"
+  ]
+}
