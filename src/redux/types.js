@@ -1,4 +1,10 @@
 export const COMMENTS_LOAD = "COMMENTS_LOAD";
 export const COMMENT_CREATE = "COMMENT_CREATE";
-export const DOGS_LOAD = "DOGS_LOAD";
+export const FOXES_LOAD = "FOXES_LOAD";
+export const INCREMENT = "INCREMENT";
+export const DEINCREMENT = "DEINCREMENT";
+
 export const DOGS_CREATE = "DOGS_CREATE";
+
+export const COMMENT_UPDATE = "COMMENT_UPDATE";
+export const COMMENT_DELETE = "COMMENT_DELETE ";

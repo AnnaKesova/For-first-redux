@@ -1,16 +1,16 @@
-import { DOGS_LOAD } from "./types";
+import { FOXES_LOAD } from "./types";
 
 const initialState = {
   src: "",
 };
 
-export const dogsReducer = (state = initialState, action) => {
+export const foxesReducer = (state = initialState, action) => {
   console.log("input text Reducer >", action);
   switch (action.type) {
-    case DOGS_LOAD:
+    case FOXES_LOAD:
       return {
         ...state,
-        src: action.data.message,
+        src: action.data.image,
       };
 
     default:

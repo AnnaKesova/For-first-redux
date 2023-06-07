@@ -1,14 +1,16 @@
 
 import './App.css';
-import Dogs from './redux/Dogs';
-import Comments from './redux/Commits'
+import Foxes from './redux/Foxes';
+import Comments from './redux/Commits';
+import FoxesLikes from './redux/FoxesLikes'
 
 function App() {
   return (
     <div className="App">
       <div className='wrapper'>
         <div className='cards about__container'>
-          <Dogs/>
+          <Foxes/>
+          <FoxesLikes/>
         </div>
         <div className='comments about__container'>
           <Comments/>

@@ -1,9 +1,10 @@
 import { combineReducers } from "redux";
-//import { likesReducer } from "./likeReducer";
-import { dogsReducer } from "./dogsReducer";
-import {commentsReducer} from './commitsReducer';
- //import { appReducer } from "./appReducer copy";
+import { likesReducer } from "./likeReducer";
+import { foxesReducer } from "./foxesReducer";
+import { commentsReducer } from "./commitsReducer";
 
 export const rootReducer = combineReducers({
-  commentsReducer, dogsReducer
-})
+  commentsReducer,
+  foxesReducer,
+  likesReducer,
+});

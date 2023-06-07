@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import uniqid from "uniqid";
 import { commentCreate, commentsLoads } from "./action";
 import SingleCommet from "./SingleComment";
 
@@ -10,7 +11,6 @@ function Comments(props) {
     const { commentsReducer } = state;
     return commentsReducer.comments;
   });
-  console.log("comments >", comments);
 
   const dispath = useDispatch();
 
@@ -21,20 +21,23 @@ function Comments(props) {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("submit textComment>>", textComment);
-
-    dispath(commentCreate(textComment));
+    const id = uniqid();
+    dispath(commentCreate(textComment, id));
   };
 
   useEffect(() => {
     dispath(commentsLoads());
   }, []);
 
-  //console.log("comments>>>", comments)
-
   return (
     <div className="card-comments">
       <form onSubmit={handleSubmit} className="comments-item-create">
-        <input type="text" value={textComment} onChange={handleInput} />
+        <input
+          type="text"
+          value={textComment}
+          onChange={handleInput}
+          className="input__forInput input__value"
+        />
         <input type="submit" hidden />
       </form>
       {!!comments.length &&

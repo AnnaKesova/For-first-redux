@@ -12,19 +12,17 @@ const store = createStore(
   rootReducer,
   compose(
     applyMiddleware(thunk),
-    window.REDUX_DEVTOOLS_EXTENSION
-      ? window.REDUX_DEVTOOLS_EXTENSION()
-      : (f) => f
+    window.__REDUX_DEVTOOLS_EXTENSION__&& window.__REDUX_DEVTOOLS_EXTENSION__()
   )
 );
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+ // <React.StrictMode>
     <Provider store={store}>
     <App />
     </Provider>
-  </React.StrictMode>
+//  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
